@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="he-IL">
+<head>
+<meta charset="UTF-8">
+	<title>טופס</title>
+<style type="text/css">
+body {margin: 2em 5em;}
+div {display:block; margin:1em;padding:.3em;}
+label {display:block;padding:0px;margin:1px;}
+input {display:block;padding:10px;margin:1px;}
+</style>
+
+</head>
+<body dir="rtl">
+<form action="https://www.huji.ac.il/payment/index.php/starting" method="post">
+<input type="hidden" id="token" name="token" value="cbc8fcc51933a997507b7db159e8ee3aa52bc7b27bffe3bd5c22da63356e8d21">
+</div>
+
+  <div>
+    <label for="firstname">שם פרטי</label>
+    <input type="text" id="firstname" name="firstname" required>
+  </div>
+ <div>
+    <label for="lastname">שם</label>
+    <input type="text" id="lastname" name="lastname" required>
+  </div>
+    <div>
+    <label for="zehut">תעודת זהות</label>
+    <input type="number" id="zehut" name="zehut" required>
+  </div>
+  
+  <div>
+    <label for="email">דוא״ל</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  
+    <div>
+    <label for="msg">הערות</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+    <div>
+     
+
+  
+
+  
+  <div> 
+
+	    <button type="submit">בצע תשלום</button> 
+
+    </div>
+</form>
+</body>
+
+</html>
